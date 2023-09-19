@@ -1,0 +1,290 @@
+td{
+    background-color: rgb(12, 12, 12);
+    color: black;
+    margin: 20px 0px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -15px black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 470px;
+    flex-basis: 18%;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+table{
+    width:100%;
+}
+
+td:hover{
+    box-shadow: 0px 0px 20px -10px black;
+    transition: 0.5s;
+}
+
+tr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+td img{
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px -100px;
+    transition: 0.75s;
+}
+
+td img:hover{
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0px -0px;
+    transition: 0.75s;
+}
+
+td div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+td div nav{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+td{
+    align-items: center;
+}
+
+td div nav:first-child{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: red;
+    width: 275px;
+    text-align: justify;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+body{
+    background-color:#1e1e1e;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+/*td{
+    background-color: white;
+    gap: 30px;
+    color: black;
+    display: flex;
+    margin: 20px 0px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -10px black;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+}
+
+tr{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+td img{
+    width: 206px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+
+}
+
+td div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+td div nav{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+    margin-left: 10px;
+
+}
+
+nav a{
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: red;
+    border-bottom: solid;
+    border-color: red;
+    transition: 0.5s;
+
+}
+
+td div nav:first-child{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+body{
+    background-color: #F4F4F4;
+    margin: 0px;
+    
+}
+
+tbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+table{
+    width: 100%;
+}
+*/
+
+
+@media only screen and (max-width: 600px) {
+    td{
+        background-color: rgb(12, 12, 12);
+        color: white;
+        margin: 20px 0px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px -15px black;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 470px;
+        flex-basis: 90%;
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    td:hover{
+        box-shadow: 0px 0px 20px -10px black;
+        transition: 0.5s;
+    }
+    
+    tr{
+        display: flex;
+        justify-content: center;
+        width: 85%;
+    }
+
+    
+
+    
+    td img{
+        width: 270px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: end;
+        height: 200px;
+        object-fit: cover;
+        object-position: 0px -100px;
+        transition: 0.75s;
+    }
+    
+    td img:hover{
+        width: 270px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: end;
+        height: 200px;
+        object-fit: cover;
+        object-position: 0px -0px;
+        transition: 0.75s;
+    }
+
+    
+
+    h1{
+        font-size: 20px;
+    }
+    
+    td div:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+    
+    td div nav{
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: white;
+    
+    }
+    
+    td{
+        align-items: start;
+    }
+    
+    td div nav:first-child{
+        font-size: 18px;
+        margin-bottom: 10px;
+        color: red;
+        width: 275px;
+        text-align: justify;
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    body{
+        background-color:#1e1e1e;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    tbody{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}    
